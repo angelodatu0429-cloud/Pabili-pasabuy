@@ -1,0 +1,24 @@
+# Ignore uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Ignore sensitive files
+config.php
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# PHP
+*.tmp
+*.bak
